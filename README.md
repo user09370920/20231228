@@ -336,7 +336,14 @@ public void deleteCustomerClicked() throws Exception {
      });
 ```
 
-### 9. 기타
+### 9. Appointment 조회, 입력, 수정, 삭제
+   - 조회 : AppointmentController > selectViewData
+   - 입력 : AppointmentController > addAppointment > AppointmentFormController > saveBtnClicked
+   - 수정 : AppointmentController > modifyAppointment > AppointmentUpdateFormController > saveBtnClicked
+   - 삭제 : AppointmentController > deleteAppointment
+
+
+### 10. 기타
    - 그 외 사항은 직접 UI실행 하면서 확인
 
 ## 다른 어플리케이션에 없는 기능(추가점 가능한 부분)
